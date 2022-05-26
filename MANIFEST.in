@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include vuesax_test *.css
+recursive-include vuesax_test *.csv
+recursive-include vuesax_test *.html
+recursive-include vuesax_test *.ico
+recursive-include vuesax_test *.js
+recursive-include vuesax_test *.json
+recursive-include vuesax_test *.md
+recursive-include vuesax_test *.png
+recursive-include vuesax_test *.py
+recursive-include vuesax_test *.svg
+recursive-include vuesax_test *.txt
+recursive-exclude vuesax_test *.pyc
