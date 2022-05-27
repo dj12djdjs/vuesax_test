@@ -12,7 +12,10 @@ app_license = "test"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/vuesax_test/css/vuesax_test.css"
-# app_include_js = "/assets/vuesax_test/js/vuesax_test.js"
+app_include_js = [
+	"/assets/vuesax_test/node_modules/vuesax/dist/vuesax.umd.min.js",
+	"/assets/js/test.min.js"
+]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/vuesax_test/css/vuesax_test.css"
